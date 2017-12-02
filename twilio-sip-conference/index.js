@@ -195,8 +195,10 @@ app.get('/get-pin', (req, res) => {
 
 app.post('/start-conference', (req, res) => {
   const pin = req.body.Digits;
-  const sessionId = app.get(pin);
-  startConference(res, sessionId);
+  if (app.get(pin)) {
+    const sessionId = app.get(pin);
+    startConference(res, sessionId);
+  }
 });
 
 /**
