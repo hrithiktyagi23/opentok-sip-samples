@@ -14,24 +14,24 @@
 
 1. Clone this repo
 
-2. Change direcory to the sample project
+2. Change directory to the sample project
 
 3. In your terminal run: `$ npm install`
 
 ## Configuring the application
 
 Before running the application, you need to configure the following credentials:
-  * **OpenTok**
-    * **OpenTok Api Key**
-    * **OpenTok Api Secret**
+  * OpenTok
+    * OpenTok Api Key
+    * OpenTok Api Secret
   * Twilio
-    * **Sip URI**
-    * **Sip Username**
-    * **Sip Password**
-    * **Twilio Account SID**
-    * **Twilio Account Token**
-    * **Caller ID verified by Twilio**
-    * **Twilio Phone Number**
+    * Sip URI
+    * Sip Username
+    * Sip Password
+    * Twilio Account SID
+    * Twilio Account Token
+    * Caller ID verified by Twilio
+    * Twilio Phone Number
 
 For OpenTok, you can get the Api Key and Secret from your API Project.
 
