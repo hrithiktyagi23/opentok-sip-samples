@@ -7,7 +7,7 @@
 
 ## Prerequisites:
 
-1. Node.js
+* Node.js
 
 
 ## Installation
