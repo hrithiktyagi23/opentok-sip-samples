@@ -14,8 +14,6 @@ const OT = new OpenTok(config.apiKey, config.apiSecret);
 
 /**
    * generatePin is used to create a 4 digit pin
-   * @param {String} sessionId
-   * @param {String} sipTokenData
 */
 
 const generatePin = () => {
@@ -113,8 +111,6 @@ const startConference = (res, sessionId) => {
 /**
    * endConference is used to end the conference call by invoking the hangup method 
    * in Twilio's API
-   * @param {Object} res
-   * @param {String} sessionId
 */
 
 const endConference = () => {
