@@ -2,6 +2,9 @@
 
 ### In this repo, you'll find the following sample applications:
 
+* ##### [Twilio-SIP-Dial-Out](https://github.com/opentok/opentok-sip-samples/tree/master/Twilio-SIP-Dial-Out)
+  * This sample application shows how to connect to an OpenTok session, publish a stream, subscribe to **multiple streams**, use OpenTok SIP Interconnect with Twilio to dial a phone number.
+  
 * ##### [Twilio-Sip-Conference](https://github.com/opentok/opentok-sip-samples/tree/master/twilio-sip-conference)
   * This sample application shows how to connect to an OpenTok session, publish a stream, subscribe to **multiple streams**, use OpenTok SIP Interconnect with Twilio's Dial API to create an audio conference.
 

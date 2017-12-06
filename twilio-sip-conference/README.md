@@ -14,7 +14,7 @@ Before running the application, you need to configure the following credentials:
     * Authorized Password for the SIP URI
     * Twilio Account SID
     * Twilio Account Token
-    * Caller ID verified by Twilio
+    * Caller ID (phone number) verified by Twilio
     * Twilio Phone Number
 
 Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `sip.uri`, `sip.username`, `sip.password`, `twilioAccount.sid`, `twilioAccount.token`, `callerId`, and `conferenceNumber` values.
