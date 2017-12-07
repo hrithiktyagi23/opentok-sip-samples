@@ -15,7 +15,7 @@ Before running the application, you need to configure the following credentials:
     * Account Auth ID
     * Account Auth Token
 
-Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `sip.uri`, `sip.username`, `sip.password`, `authId`, and `authToken` values.
+Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `sip.uri`, `sip.username`, `sip.password`, `plivo.authId`, and `plivo.authToken` values.
 
 ```
   module.exports = {
@@ -38,8 +38,6 @@ Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `si
   * Create an API Project to get the API Key and Secret.
 
   For Plivo:
-  * Sign up for a [Plivo](https://www.plivo.com/) account.
-  
   * Create a new Plivo [application](https://manage.plivo.com/app/). Make the following application
    settings:
     * *Application Name* -- Specify a unique identifying name. (This will only be used by your
