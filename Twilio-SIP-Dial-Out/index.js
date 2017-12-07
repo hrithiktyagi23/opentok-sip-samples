@@ -72,7 +72,6 @@ const setSessionDataAndRenderRoom = (res, roomId) => {
 /**
    * setSipOptions is used to set properties for the OT.dial API call
    * @param {String} roomId
-   * @param {Number} pinCode
    * @param {String} conferenceNumber
 */
 
@@ -148,14 +147,15 @@ app.get('/hang-up', (req, res) => {
     const sessionId = app.get(roomId);
     OT.forceDisconnect(sessionId, connectionId, (error) => {
       if (error) {
-        return res.send({
+        res.send({
           error,
         });
+      } else {
+        endCall();
+        res.send({
+          hangUp: true,
+        });
       }
-      endCall();
-      return res.send({
-        hangUp: true,
-      });
     });
   } else {
     res.send({
@@ -167,7 +167,6 @@ app.get('/hang-up', (req, res) => {
    * When the voice get request is made, the startCall function is called
 */
 app.get('/voice', (req, res) => {
-  console.log('voice initiated');
   const phoneNumber = req.query['SipHeader_X-PH-DIALOUT-NUMBER'];
   startCall(res, phoneNumber);
 });
