@@ -1,0 +1,24 @@
+{
+  "name": "plivo-sip-conference",
+  "version": "1.0.0",
+  "description": "A sample application that uses OpenTok SIP Interconnect with Plivo Voice to create an audio conference",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manik Sachdeva",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "opentok": "^2.6.1",
+    "plivo": "^0.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
