@@ -233,7 +233,7 @@ app.get('/get-pin', (req, res) => {
   const plivoResponse = plivo.Response();
   const params = {
     numDigits: 4,
-    action: 'https://yourappdomain.com/start-conference', // make sure to change this to your server url
+    action: `${config.serverURL}/start-conference`,
     method: 'POST',
     retries: 1,
     timeout: 5,
