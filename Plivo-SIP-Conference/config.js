@@ -8,7 +8,8 @@ module.exports = {
   },
   plivo: {
     authId: '',
-    authToken: ''
+    authToken: '',
   },
   conferenceNumber: '',
+  serverURL: '',
 };

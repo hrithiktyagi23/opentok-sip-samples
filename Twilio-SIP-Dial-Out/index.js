@@ -2,13 +2,10 @@ const express = require('express');
 const OpenTok = require('opentok');
 const config = require('./config');
 const twilio = require('twilio');
-const bodyParser = require('body-parser');
 
 const app = express();
 
 app.use(express.static(`${__dirname}/public`));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
 
 const OT = new OpenTok(config.apiKey, config.apiSecret);
 
