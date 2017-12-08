@@ -5,6 +5,9 @@
 * ##### [Plivo-SIP-Dial-Out](https://github.com/opentok/opentok-sip-samples/tree/master/Plivo-SIP-Dial-Out)
   * This sample application shows how to connect to an OpenTok session, publish a stream, subscribe to **multiple streams**, use OpenTok SIP Interconnect with Plivo to dial a phone number.
 
+* ##### [Plivo-SIP-Conference](https://github.com/opentok/opentok-sip-samples/tree/master/Plivo-SIP-Conference)
+  * This sample application shows how to connect to an OpenTok session, publish a stream, subscribe to **multiple streams**, use OpenTok SIP Interconnect with Plivo's Dial API to create an audio conference.
+
 * ##### [Twilio-SIP-Dial-Out](https://github.com/opentok/opentok-sip-samples/tree/master/Twilio-SIP-Dial-Out)
   * This sample application shows how to connect to an OpenTok session, publish a stream, subscribe to **multiple streams**, use OpenTok SIP Interconnect with Twilio to dial a phone number.
   
