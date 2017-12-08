@@ -101,8 +101,8 @@ const setSessionDataAndRenderRoom = (res, roomId, pinCode) => {
 /**
    * setSipOptions is used to set properties for the OT.dial API call
    * @param {String} roomId
-   * @param {Number} pinCode
    * @param {String} conferenceNumber
+   * @param {Number} pinCode
 */
 
 const setSipOptions = (roomId, conferenceNumber, pinCode) => ({
