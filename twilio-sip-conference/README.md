@@ -54,7 +54,7 @@ Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `si
         | A CALL COMES IN | Webhook | https://your-server.com/get-pin | GET |
   * Make sure to verify your phone number with Twilio so it can be used as the caller Id.
   
-### Note: You must run this app on a publicly available URL -- you cannot test the dial-out code using localhost.
+#### Note: You must run this app on a publicly available URL -- you cannot test the dial-out code using localhost.
 
 ## Starting the application
 `npm start`

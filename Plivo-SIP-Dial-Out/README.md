@@ -44,19 +44,19 @@ Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `si
      server code.)
 
     * *Answer URL* -- Add the public address for the /forward endpoint of this app's server.
-     This is the webhook callback URL that Plivo calls when a call starts. (In response, this app's server responds with XML that includes the phone number to dial.) You must run this app on a publicly available URL -- you cannot test the dial-out code using localhost. For
-     example, set this URL to `https://yourappdomain.com/forward`.
+     This is the webhook callback URL that Plivo calls when a call starts. (In response, this app's server responds with XML that includes the phone number to dial.)
 
     * *Answer Method* -- Set this to GET.
 
     * *Hangup URL* -- Add the public address for the /plivo-hang-up endpoint of this app's server.
-     This is the webhook callback URL that Plivo calls when a call ends. You must run this app on a publicly available URL -- you cannot test the dial-out code using localhost. For
-     example, set this URL to `https://yourappdomain.com/plivo-hang-up`.
+     This is the webhook callback URL that Plivo calls when a call ends.
 
     * *Hangup Method* -- Set this to GET.
 
   * Create a new Plivo [endpoint](https://manage.plivo.com/endpoint/). Assign it a username and
    password, and assign the endpoint to the Plivo application you created.
+
+#### Note: You must run this app on a publicly available URL -- you cannot test the dial-out code using localhost.
 
 ## Starting the application
 `npm start`
