@@ -61,7 +61,7 @@ Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `si
    password, and assign the endpoint to the Plivo application you created.
 
   * Create a Plivo phone number
-    * Create another Application:
+    * Create another Plivo application:
       * *Application Name* -- Specify a unique identifying name. (This will only be used by your
      server code.)
 
