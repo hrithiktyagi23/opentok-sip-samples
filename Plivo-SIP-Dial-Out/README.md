@@ -43,12 +43,12 @@ Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `si
     * *Application Name* -- Specify a unique identifying name. (This will only be used by your
      server code.)
 
-    * *Answer URL* -- Add the public address for the /forward endpoint of this app's server.
+    * *Answer URL* -- Add the public address for the `/forward` endpoint of this app's server.
      This is the webhook callback URL that Plivo calls when a call starts. (In response, this app's server responds with XML that includes the phone number to dial.)
 
     * *Answer Method* -- Set this to GET.
 
-    * *Hangup URL* -- Add the public address for the /plivo-hang-up endpoint of this app's server.
+    * *Hangup URL* -- Add the public address for the `/plivo-hang-up` endpoint of this app's server.
      This is the webhook callback URL that Plivo calls when a call ends.
 
     * *Hangup Method* -- Set this to GET.
