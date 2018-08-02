@@ -105,7 +105,10 @@ const setSipOptions = (roomId, phoneNumber) => ({
 */
 const startCall = (res, phoneNumber) => {
   const plivoResponse = plivo.Response();
-  plivoResponse.addDial()
+  const params = {
+    callerId: config.callerId,
+  };
+  plivoResponse.addDial(params)
     .addNumber(phoneNumber);
   res.send(plivoResponse.toXML());
 };
