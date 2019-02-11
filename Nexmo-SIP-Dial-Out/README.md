@@ -32,5 +32,6 @@ Open the `config.js` file in your project and set the `apiKey`, `apiSecret`, `si
   For Nexmo:
   * Sign up for a [Nexmo](https://www.nexmo.com/) account to get the API Key and Secret.
 
-## Starting the application
+## Starting the application    
+'npm install'
 `npm start`
